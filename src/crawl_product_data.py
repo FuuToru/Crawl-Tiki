@@ -81,7 +81,7 @@ def parser_product(json):
     return d
 
 
-df_id = pd.read_csv('product_id_ncds.csv')
+df_id = pd.read_csv('../data/product_id_ncds.csv')
 p_ids = df_id.id.to_list()
 print(p_ids)
 result = []
